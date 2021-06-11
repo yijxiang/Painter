@@ -7,14 +7,14 @@ For APJC DevNet Innovator 2021
 
 
 
-### install Influxdb and Grafana
+### install Influxdb and Grafana from docker hub
 docker pull influxdb:1.8.4
 
 
 docker pull grafana/grafana:7.5.4
 
 
-### install python docker applications
-docker load --input webhook.tar
+### install python docker applications from docker hub
+docker pull yijxiang/webhook
 
-docker load --input dnac.tar 
+docker pull yijxiang/dnac
